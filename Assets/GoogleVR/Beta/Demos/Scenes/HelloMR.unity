@@ -913,11 +913,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 114000013899574178, guid: 048f0870e3e4143d9a65ef712d616c2b,
-        type: 3}
-      propertyPath: controllerHand
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 771218441, guid: 048f0870e3e4143d9a65ef712d616c2b, type: 3}
       propertyPath: m_Layer
       value: 8
@@ -925,6 +920,11 @@ PrefabInstance:
     - target: {fileID: 1225896218, guid: 048f0870e3e4143d9a65ef712d616c2b, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013899574178, guid: 048f0870e3e4143d9a65ef712d616c2b,
+        type: 3}
+      propertyPath: controllerHand
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 048f0870e3e4143d9a65ef712d616c2b, type: 3}
@@ -2707,6 +2707,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1398583854}
+  - component: {fileID: 1398583855}
   m_Layer: 0
   m_Name: Trigger&Obj
   m_TagString: Untagged
@@ -2730,6 +2731,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1398583855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398583853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a8196c6cad3b45479024be9f2e9e431, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerObj: {fileID: 1048478417}
+  TargetObj: {fileID: 1180637015}
+  ActiveTime: 0.1
+  _switchKey: 32
 --- !u!1 &1461286307
 GameObject:
   m_ObjectHideFlags: 0
